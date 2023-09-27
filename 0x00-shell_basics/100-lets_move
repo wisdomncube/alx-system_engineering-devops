@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l -f
+ls -l -f | awk 'BEGIN {RS=""; FS="\n"} {print $0 "\ntotal 0"}'
