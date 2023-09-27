@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lnA
+ls -lls -lAn | sed 's/ \.\// /'
