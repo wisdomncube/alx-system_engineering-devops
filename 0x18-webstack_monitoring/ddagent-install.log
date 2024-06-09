@@ -5,12 +5,13 @@
 * Installing apt-transport-https, curl and gnupg
 [0m
 Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
-Hit:2 http://archive.ubuntu.com/ubuntu focal-updates InRelease
-Hit:3 http://archive.ubuntu.com/ubuntu focal-backports InRelease
-Hit:4 http://security.ubuntu.com/ubuntu focal-security InRelease
-Ign:5 https://apt.datadoghq.com stable InRelease
-Hit:6 https://apt.datadoghq.com stable Release
-Hit:7 http://ppa.launchpad.net/brightbox/ruby-ng/ubuntu focal InRelease
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates InRelease [128 kB]
+Ign:3 https://apt.datadoghq.com stable InRelease
+Hit:4 http://ppa.launchpad.net/brightbox/ruby-ng/ubuntu focal InRelease
+Get:5 http://security.ubuntu.com/ubuntu focal-security InRelease [128 kB]
+Hit:6 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:7 https://apt.datadoghq.com stable Release
+Fetched 256 kB in 6s (46.4 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -70,7 +71,8 @@ Troubleshooting and basic usage information for the Datadog Agent are available 
 
     https://docs.datadoghq.com/agent/basic_agent_usage/
 [0m
-Do you want to send a failure report to Datadog (including ddagent-install.log)? (y/[n]) 
+Do you want to send a failure report to Datadog (including ddagent-install.log)? (y/[n]) Timed out or input EOF reached, assuming 'No'
+
 If you are still having problems, please send an email to support@datadoghq.com
 with the contents of ddagent-install.log and any information you think would be
 useful and we will do our very best to help you solve your problem.
